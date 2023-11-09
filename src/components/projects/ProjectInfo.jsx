@@ -75,6 +75,7 @@ const ProjectInfo = () => {
 										key={social.id}
 										href={social.url}
 										target="__blank"
+										rel="noreferrer"
 										aria-label="Share Project"
 										className="bg-ternary-light dark:bg-ternary-dark text-gray-400 hover:text-primary-dark dark:hover:text-primary-light p-2 rounded-lg shadow-sm duration-500"
 									>
